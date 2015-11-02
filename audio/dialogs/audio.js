@@ -220,11 +220,12 @@ CKEDITOR.dialog.add( 'audio', function ( editor )
 								id : 'type0',
 								label : lang.sourceType,
 								type : 'select',
-								'default' : 'audio/mp4',
+								'default' : 'audio/mpeg',
 								items :
 								[
-									[ 'MP4', 'audio/mp4' ],
-									[ 'WebM', 'audio/webm' ]
+									[ 'MP3', 'audio/mpeg' ],
+									[ 'Wav', 'audio/wav' ],
+									[ 'Ogg', 'audio/ogg' ]
 								],
 								commit : commitSrc,
 								setup : loadSrc
@@ -259,11 +260,12 @@ CKEDITOR.dialog.add( 'audio', function ( editor )
 								id : 'type1',
 								label : lang.sourceType,
 								type : 'select',
-								'default':'audio/webm',
+								'default':'audio/mpeg',
 								items :
 								[
-									[ 'MP4', 'audio/mp4' ],
-									[ 'WebM', 'audio/webm' ]
+									[ 'MP3', 'audio/mpeg' ],
+									[ 'Wav', 'audio/wav' ],
+									[ 'Ogg', 'audio/ogg' ]
 								],
 								commit : commitSrc,
 								setup : loadSrc
